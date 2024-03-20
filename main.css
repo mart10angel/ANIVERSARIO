@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+#audio-container {
+  position: absolute;
+  top: 10px; /* Ajusta según sea necesario */
+  right: 10px; /* Ajusta según sea necesario */
+  z-index: 9999; /* Asegura que esté por encima del contenido */
+}
+
 :root {
   --dark-color: #000;
 }
@@ -19,7 +26,12 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
-
+.adio{
+justify-content: center;
+color: #1aaa15;
+display: block; 
+margin: 0 auto;
+}
 .night {
   position: fixed;
   left: 50%;
