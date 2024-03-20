@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="flowers.png" type="image/x-icon" />
+    <title>FLORES</title>
+  </head>
+  <body>
+    <audio id="miAudio" controls autoplay>
+      <source src="Floricienta.mp3" type="audio/mp3" />
+      Tu navegador no soporta la etiqueta de audio.
+    </audio>
+
+    <div class="greetings">
+      <span>H</span>
+      <span>O</span>
+      <span>L</span>
+      <span>A</span>
+      <span>Y</span>
+      <span>A</span>
+      <span>R</span>
+      <span>E</span>
+      <span>!</span>
+    </div>
+    <div class="description">
+      <span>Tengo un regalo especial para ti!!</span>
+    </div>
+    <div class="description">
+      <span>Tal vez no es lo que esperabas pero espero y te guste</span>
+    </div>
+    <div class="button">
+      <button onclick="irAOtraPagina()">
+        <a href="FLORES.html">Haga Clic</a>
+      </button>
+    </div>
+
+    <script>
+      function irAOtraPagina() {
+        window.location.href = "FLORES.html"; // Redirigir a la página principal
+      }
+    </script>
+  </body>
+</html>
